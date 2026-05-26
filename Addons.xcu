@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data
+ xmlns:oor="http://openoffice.org/2001/registry"
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ oor:name="Addons"
+ oor:package="org.openoffice.Office">
+    <node oor:name="AddonUI">
+        <node oor:name="OfficeMenuBarMerging">
+            <node oor:name="org.ossii.ImpressExportAllImages.OfficeMenuBarMerging" oor:op="replace">
+                <node oor:name="IEAI001" oor:op="replace">
+                    <prop oor:name="MergePoint">
+                        <value>.uno:ToolsMenu\.uno:PresentationMinimizer</value>
+                    </prop>
+                    <prop oor:name="MergeCommand">
+                        <value>AddAfter</value>
+                    </prop>
+                    <prop oor:name="MergeFallback">
+                        <value>AddPath</value>
+                    </prop>
+                    <prop oor:name="MergeContext" oor:type="xs:string">
+                        <value>com.sun.star.presentation.PresentationDocument</value>
+                    </prop>
+                    <node oor:name="MenuItems">
+                        <node oor:name="IEAI002" oor:op="replace">
+                            <prop oor:name="URL" oor:type="xs:string">
+                                <value>service:org.ossii.ImpressExportAllImages.do</value>
+                            </prop>
+                            <prop oor:name="Title" oor:type="xs:string">
+                                <value xml:lang="en">Export All Images...</value>
+                                <value xml:lang="zh-TW">匯出所有圖片...</value>
+                            </prop>
+                            <prop oor:name="Target" oor:type="xs:string">
+                                <value>_self</value>
+                            </prop>
+                        </node> <!-- IEAI002 -->
+                    </node> <!-- MenuItems -->
+                </node> <!-- IEAI001 -->
+            </node>
+        </node> <!-- OfficeMenuBarMerging -->
+        <node oor:name="OfficeToolbarMerging">
+            <node oor:name="org.ossii.ImpressExportAllImages.OfficeToolbarMerging" oor:op="replace">
+                <node oor:name="IEAI003" oor:op="replace">
+                    <prop oor:name="MergeToolBar" oor:type="xs:string">
+                        <value>commontaskbar</value>
+                    </prop>
+                    <prop oor:name="MergePoint">
+                        <value>.uno:MoveSlideLast</value>
+                    </prop>
+                    <prop oor:name="MergeCommand">
+                        <value>AddAfter</value>
+                    </prop>
+                    <prop oor:name="MergeFallback">
+                        <value>AddLast</value>
+                    </prop>
+                    <prop oor:name="MergeContext" oor:type="xs:string">
+                        <value>com.sun.star.presentation.PresentationDocument</value>
+                    </prop>
+                    <node oor:name="ToolBarItems">
+                        <node oor:name="IEAI004" oor:op="replace">
+                            <prop oor:name="URL" oor:type="xs:string">
+                                <value>service:org.ossii.ImpressExportAllImages.do</value>
+                            </prop>
+                            <prop oor:name="Title" oor:type="xs:string">
+                                <value xml:lang="en">Export All Images</value>
+                                <value xml:lang="zh-TW">匯出所有圖片</value>
+                            </prop>
+                            <prop oor:name="Target" oor:type="xs:string">
+                                <value>_self</value>
+                            </prop>
+                            <prop oor:name="Context" oor:type="xs:string">
+                                <value>com.sun.star.presentation.PresentationDocument</value>
+                            </prop>
+                        </node> <!-- IEAI004 -->
+                    </node> <!-- ToolBarItems -->
+                </node> <!-- IEAI003 -->
+            </node>
+        </node> <!-- OfficeToolbarMerging -->
+        <node oor:name="OfficeNotebookBar">
+            <node oor:name="org.ossii.ImpressExportAllImages.OfficeNotebookBar" oor:op="replace">
+                <node oor:name="IEAI005" oor:op="replace">
+                    <prop oor:name="Context" oor:type="xs:string">
+                        <value>com.sun.star.presentation.PresentationDocument</value>
+                    </prop>
+                    <prop oor:name="URL">
+                        <value>service:org.ossii.ImpressExportAllImages.do</value>
+                    </prop>
+                    <prop oor:name="Title">
+                        <value xml:lang="en">Export All Images...</value>
+                        <value xml:lang="zh-TW">匯出所有圖片...</value>
+                    </prop>
+                    <prop oor:name="Target">
+                        <value>_self</value>
+                    </prop>
+                </node> <!-- IEAI005 -->
+            </node> <!-- OfficeNotebookBar -->
+        </node> <!-- OfficeNotebookBar -->
+        <node oor:name="Images">
+            <node oor:name="org.ossii.ImpressExportAllImages.Images.IEAI006" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>service:org.ossii.ImpressExportAllImages.do</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                        <value>%origin%/icons/32x21.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL" oor:type="xs:string">
+                        <value>%origin%/icons/64x42.png</value>
+                    </prop>
+                </node> <!-- UserDefinedImages -->
+            </node>
+        </node> <!-- Images -->
+    </node> <!-- AddonUI -->
+</oor:component-data>
