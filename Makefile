@@ -24,7 +24,9 @@ FILES = \
 
 all: $(FILES) mo
 	$(shell ./update_version.sh)
-	zip -r $(PRJNAME)-$(VERNUM).oxt $(FILES) VERSION locales
+	find pythonpath -name '__pycache__' -type d -prune -exec rm -rf {} +
+	zip -r $(PRJNAME)-$(VERNUM).oxt $(FILES) VERSION locales \
+	    -x '*__pycache__*' '*.pyc'
 
 pot:
 	pygettext3 --output-dir locales -o $(PRJNAME).pot \
