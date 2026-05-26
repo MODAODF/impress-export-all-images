@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: impress-export-all-images\n"
+"POT-Creation-Date: 2026-05-26 00:00+0800\n"
+"PO-Revision-Date: 2026-05-26 00:00+0800\n"
+"Last-Translator: Dev Lo <lodev@ossii.com.tw>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Impress Export All Images"
+msgstr "Impress 匯出所有圖片"
+
+msgid "Please open an Impress presentation first."
+msgstr "請先開啟一個 Impress 簡報。"
+
+msgid "This presentation contains no images."
+msgstr "此簡報中沒有任何圖片。"
+
+msgid "Exported {n} image(s) to:\n{path}"
+msgstr "已匯出 {n} 張圖片至:\n{path}"
+
+msgid ""
+"Export error:\n"
+"\n"
+"{tb}"
+msgstr ""
+"匯出時發生錯誤:\n"
+"\n"
+"{tb}"

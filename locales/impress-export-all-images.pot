@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: impress-export-all-images\n"
+"POT-Creation-Date: 2026-05-26 00:00+0800\n"
+"PO-Revision-Date: 2026-05-26 00:00+0800\n"
+"Last-Translator: Dev Lo <lodev@ossii.com.tw>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Impress Export All Images"
+msgstr ""
+
+msgid "Please open an Impress presentation first."
+msgstr ""
+
+msgid "This presentation contains no images."
+msgstr ""
+
+msgid "Exported {n} image(s) to:\n{path}"
+msgstr ""
+
+msgid ""
+"Export error:\n"
+"\n"
+"{tb}"
+msgstr ""

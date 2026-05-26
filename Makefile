@@ -32,6 +32,7 @@ pot:
 
 mo:
 	for lang in $(LANGS); do \
+	    mkdir -p locales/$$lang/LC_MESSAGES; \
 	    msgfmt locales/$$lang/$(PRJNAME).po \
 	        -o locales/$$lang/LC_MESSAGES/$(PRJNAME).mo; \
 	done
