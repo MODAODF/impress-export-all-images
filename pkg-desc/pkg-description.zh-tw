@@ -1,0 +1,5 @@
+Copyright (c) 2026 by OSSII
+
+將 Impress 簡報中內嵌的每一張圖片匯出至您指定的資料夾。若簡報中沒有圖片，會出現訊息告知。匯出時保留圖片的原始位元組與格式。
+
+此延伸套件使用 Mauricio Baeza 所開發之 easymacro（GPLv3 授權）。

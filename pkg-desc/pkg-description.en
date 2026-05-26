@@ -1,0 +1,5 @@
+Copyright (c) 2026 by OSSII
+
+Export every picture embedded in an Impress presentation to a folder of your choice. If the presentation has no pictures, a message tells you so. Original image bytes and formats are preserved.
+
+This extension uses easymacro developed by Mauricio Baeza, released under GPLv3.

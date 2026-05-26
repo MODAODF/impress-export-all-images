@@ -1,0 +1,6 @@
+prompt.txt
+AGENTS.md
+*.oxt
+*.mo
+__pycache__/
+*.pyc
